@@ -6,11 +6,21 @@
   <body>
     <style>
       body{
-      background-color: gray;
+        background-color: gray;
         text-align: center;
         font-size: 100px;
       }
+      button{
+       background-color: red;
+      }
     </style>
-  <h1 class="header">MY WEBSITE</h1>
+    <h1 class="header">MY WEBSITE</h1>
+    <button onclick="press()">BUTTON</button>
+    
+    <script>
+      function press(){
+        console.log("BUTTON PRESSED");
+      }
+    </script>
   </body>
 </HTML>
