@@ -10,7 +10,7 @@ app.get('/',function(req, res)
 });
 app.use('/client',express.static(__dirname+'/client'));
 
-serv.listen(6969);
+serv.listen("DasSuperhirn.github.io");
 console.log("Server started succesfully!");
 console.log("theplace by SafetyMax <3");
 
